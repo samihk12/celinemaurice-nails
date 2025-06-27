@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Celine Icy Nails</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <img src="logo.png" alt="Celine Icy Nails Logo" class="logo">
+    <h1>Celine Icy Nails 💅</h1>
+    <ul>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#prices">Prices</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h2>Welcome to Celine Icy Nails</h2>
+    <p>Where elegance meets creativity 💖</p>
+  </header>
+
+  <section class="gallery" id="gallery">
+    <h2>Our Nail Designs</h2>
+    <div class="images">
+      <img src="nail 1.jpg" alt="Nail 1">
+      <img src="nail 2.jpg" alt="Nail 2">
+      <img src="nail 3.jpg" alt="Nail 3">
+      <img src="nail 4.jpg" alt="Nail 4">
+      <img src="nail 5.jpg" alt="Nail 5">
+      </div>
+  </section>
+
+  <section class="prices" id="prices">
+    <h2>Price List</h2>
+    <ul>
+      <li>Acrylic Nails – Ksh 1500</li>
+      <li>Gel Polish – Ksh 800</li>
+      <li>Poly Gel – Ksh 900</li>
+      <li>Builder Gel + Stickons – Ksh 800</li>
+      <li>Nail Gel – Ksh 400</li>
+      <li>Toe Gel – Ksh 400</li>
+      <li>Gel + Tips – Ksh 600</li>
+      <li>Gel + Stickons – Ksh 500</li>
+      <li>Nail Polish – Ksh 80</li>
+    </ul>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>Celine Icy Nails is a modern nail studio dedicated to unique styles and flawless beauty. We’re based in Kenya and specialize in nails that stand out. 💅✨</p>
+  </section>
+
+  <section class="booking">
+    <h2>Ready to Get Icy? ❄</h2>
+    <p>Click below to chat with us directly on WhatsApp and book your perfect nail session.</p>
+    <a href="https://wa.me/254768188477?text=Hi%20Celine%20Icy%20Nails!%20I’d%20like%20to%20book%20an%20appointment." class="book-btn" target="_blank">💬 Book on WhatsApp</a>
+    <p id="confirmation" class="hidden">✅ Thank you for reaching out! We'll reply on WhatsApp shortly.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <p>📍 Location: Murang’a Town, opposite Nyeri stage<br>
+       📱 Phone: 0768 188 477<br>
+       📬 Email: celineicynails@gmail.com</p>
+  </section>
+ <section class="offers">
+  <h2>🎁 Special Offers</h2>
+  <ul>
+    <li><strong>New Clients:</strong> Get <span class="highlight">10% off</span> your first visit!</li>
+    <li><strong>Bring a Friend:</strong> You both get <span class="highlight">Ksh 200 off</span></li>
+    <li><strong>Loyal Clients:</strong> Every 5 visits = <span class="highlight">Free Gel Polish</span></li>
+  </ul>
+</section>
+
+<section class="tips">
+  <h2>💅 Nail Care Tips</h2>
+  <ul>
+    <li><strong>💧 Hydrate your cuticles</strong> daily with cuticle oil to avoid dryness.</li>
+    <li><strong>🚫 Don’t bite your nails!</strong> It ruins your shape and damages gel.</li>
+    <li><strong>📆 Book fills regularly</strong> to maintain acrylic strength and shine.</li>
+    <li><strong>🧴 Use gloves</strong> while doing dishes to protect your polish.</li>
+  </ul>
+</section>
+  <footer>
+    <p>&copy; 2025 Celine Icy Nails. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const bookBtn = document.querySelector('.book-btn');
+    const confirmMsg = document.getElementById('confirmation');
+
+    bookBtn.addEventListener('click', () => {
+      confirmMsg.classList.remove('hidden');
+    });
+  </script>
+
+</body>
+</html>
